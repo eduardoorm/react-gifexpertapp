@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-
+import GifExpertApp from './componentes/GifExpertApp'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <GifExpertApp/>
+    </>
   );
 }
+
+//GifExpertApp
+//<h2>GifExpertApp</h2>
+//<hr>
 
 export default App;
